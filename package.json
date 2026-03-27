@@ -1,0 +1,20 @@
+{
+  "name": "devmates",
+  "version": "1.0.0",
+  "description": "Collaboration tool for devs",
+  "keywords": [
+    "nodejs",
+    "Javascript"
+  ],
+  "license": "ISC",
+  "author": "Deepesh Sharma",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3"
+  }
+}
